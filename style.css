@@ -1,0 +1,66 @@
+body{
+    font-family: 'Cabin Sketch', cursive;
+    background-color: #2c1d06;
+    margin: 0;
+    color: #ac680f;
+    font-size: 28px;
+}
+
+a:link      {color: #ac680f; text-decoration: underline;}
+a:visited   {color: #ac680f;}
+a:active    {color: #ac680f;}
+a:hover     {color: #ffc341;}
+
+h1{
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+p{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+.board{
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}.card{
+    width: 125px;
+    height: 125px;
+    margin: 10px;
+    margin-top: 10px;
+    border: 2px solid #ac680f;
+    border-radius: 3px;
+    float: left;
+    background-image: url("img/africa.png");
+    filter: brightness(0.7);
+    transition: all 0.4s ease-in-out;
+    
+    
+}
+.card:hover{
+    border: 2px solid #ffc341;
+    cursor:pointer;
+    filter: brightness(1);
+}
+ .score{
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 600px;
+}
+#playagain{
+    padding-bottom: 10px;
+}
+#playagain:hover{
+    cursor: pointer;
+    color: #ffc341;
+}
